@@ -1,22 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actividad 1 Ingenieria Web</title>
-</head>
-<body>
-    <h1>Directorio de Restaurants</h1>
+<html lang="es">
+   <head>
+    <!-- Documento metadata -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <link rel="stylesheet" href="css/stylos.css">
+    <link rel="icon" href="images/icons8-fideos-kawaii-16.png" type="images/png"
+    sizes="16x16">
+    <title>Directorio de Restaurantes</title>
+  </head>
+  <body>
+    <!------ CONTENEDOR------>
+    <div id="main_wrapper">
     <header>
-        <img src="">
-        <nav>
-    <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Seach</a></li>
-        <li><a href="Pages/New Restaurants.html">NewRestaurants</a></li>
-    </ul>
+      <div id="main_title">
+        <img src="images/icons8-fideos-kawaii-16.png" alt="Fideos Kawaii" id="logo">
+         <h1>RESTAURANTS</h1>
+         <h2>Directory Restaurants</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Directory</a></li>
+          <li><a href="#">Restaurants</a></li>
+          <li><a href="#">Search</a></li>
+          <li><a href="#">New Restaurants</a></li>
+        </ul>
         </nav>
     </header>
-</body>
+   <div id="banner_image">
+    <div id="banner_description">
+      <a href="#" class="red_button">See article <img src="images/arrow-left.png"></a>
+  </div>
+   </div>   
+   <h1>New Restaurant</h1>
+    <form method="POST" action="Clases/procesar.php">
+      <label>Nombre</label><br>
+    <input type="text" name="nombre" id="nombre"><br>
+    <label>Descripcion</label><br>
+    <input type="text" name="descripcion" id="descripcion"><br>
+    <label>Direccion</label><br>
+    <input type="text" name="direccion" id="direccion"><br>
+    <label>Imagen URL</label><br>
+    <input type="text" name="imagen" id="imagen"><br>
+    <br>
+    <input type="submit" name="Guardar" id="Guardar"><br>
+    </form>
+    </div>
+  </body>
 </html>
