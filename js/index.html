@@ -6,46 +6,168 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width-device-width, initial-scale-1.0">
     <link rel="stylesheet" href="css/stylos.css">
-    <link rel="icon" href="images/icons8-fideos-kawaii-16.png" type="images/png"
-    sizes="16x16">
+    <link rel="shortcut icon" href="images/icons8-fideos-kawaii-16.png" type="images/png">
     <title>Directorio de Restaurantes</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+            <!--
+        CSS
+        ============================================= -->
+        <link rel="stylesheet" href="css/linearicons.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/nice-select.css">                  
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/main.css">
   </head>
-  <body>
-    <!------ CONTENEDOR------>
-    <div id="main_wrapper">
-    <header>
-      <div id="main_title">
-        <img src="images/icons8-fideos-kawaii-16.png" alt="Fideos Kawaii" id="logo">
-         <h1>RESTAURANTS</h1>
-         <h2>Directory Restaurants</h2>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#">Directory</a></li>
-          <li><a href="#">Restaurants</a></li>
-          <li><a href="#">Search</a></li>
-          <li><a href="#">New Restaurants</a></li>
-        </ul>
-        </nav>
-    </header>
-   <div id="banner_image">
-    <div id="banner_description">
-      <a href="#" class="red_button">See article <img src="images/arrow-left.png"></a>
-  </div>
-   </div>   
-   <h1>New Restaurant</h1>
-    <form method="POST" action="Clases/procesar.php">
-      <label>Nombre</label><br>
-    <input type="text" name="nombre" id="nombre"><br>
-    <label>Descripcion</label><br>
-    <input type="text" name="descripcion" id="descripcion"><br>
-    <label>Direccion</label><br>
-    <input type="text" name="direccion" id="direccion"><br>
-    <label>Imagen URL</label><br>
-    <input type="text" name="imagen" id="imagen"><br>
-    <br>
-    <input type="submit" name="Guardar" id="Guardar"><br>
-    </form>
+  <body> 
+    <header id="header" id="home">
+    <div class="header-top">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-lg-8 col-sm-4 col-8 header-top-right no-padding">
+                    <ul>
+                        <li>
+                             RESTAURANTS</h4>
+                       </li>                                           
+                    </ul>
+                </div>
+            </div>                              
+        </div>
+    </div>              
+    <div class="container">
+    <div class="row align-items-center justify-content-between d-flex">
+          <div id="logo">
+        <a href="index.html"><img src="images/logo.png" width="120" height="120" alt="" title="" /></a>
+          </div>
+          <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active">Directory<a href="#home"></a></li>
+          <li><a href="#blog">Restaurants</a></li>
+          <li><a href="#about">Search</a></li>
+          <li><a href="#coffee">New</a></li>                              
+            <ul>
+          </nav><!-- #nav-menu-container -->                
     </div>
+    </div>
+    <h1>New</h1>
+        <form method="post" action="#">
+            <label>Nombre:</label><br><br>
+            <input type-"text"><br><br>            
+            <label>Direccion:</label><br><br>
+            <input type-"text"><br><br>
+            <label>Descripcion del Restaurante:</label><br><br>
+            <input type-"text"><br><br>           
+            <label>Imagen URL:</label><br><br>
+            <input type-"text"><br><br>
+
+            <button type-"submit">Guardar</button><br><br>
+            <button type-"reset">Reset</button>
+
+        </form>
+  </header><!-- #header -->
+          <!-- start banner Area -->
+          <section class="banner-area largo" id="home">   
+            <div class="container">
+                <div class="row fullscreen d-flex align-items-center justify-content-start">
+                    <div class="banner-content col-lg-7">
+                    <h4></h4>
+                        <h4 class="text-white text-uppercase">
+<!--<a href="#" class="primary-btn text-uppercase">Buy Now</a>-->
+</div>                                          
+</div>
+</div>
+</section>
+<!-- End banner Area -->
+<!-- Start blog Area -->
+<section class="blog-area section-gap" id="blog">
+  <div class="container">
+      <div class="row d-flex justify-content-center">
+          <div class="menu-content pb-60 col-lg-10">
+              <div class="title text-center">
+                  <h1 class="mb-10"></h1>
+                </div>
+              </div>
+          </div>                      
+          <div class="row">
+              <div class="col-lg-6 col-md-6 single-blog">
+                  <img class="img-fluid" src="img/b1.jpg" alt="">
+                  <br></br>
+                  <br></br>
+                  <div class="col-lg-6 col-md-6 single-blog">
+                    <img class="img-fluid" src="img/b2.jpg" alt="">
+                    <br></br>
+                    <br></br>
+                  </div>
+                </section>
+                        <!-- Start menu Area -->
+        <section class="menu-area section-gap" id="coffee">
+          <div class="container">
+              <div class="row d-flex justify-content-center">
+                  <div class="menu-content pb-25 col-lg-10">
+                      <div class="title text-center">
+                          <h1 class="mb-10"></h1>
+                          <p></p>
+                        </div>
+                    </div>
+                </div>                      
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="single-menu">
+                            <div class="title-div justify-content-between d-flex">
+                                <h4>Pacifico Mar</h4>
+                                <h5> Av. 85 Nro 45-85 Barranquilla</h5>
+                                <h6>Deliciosa Comida de Mar</h6>
+                                <p class="price float-right">
+                                </p>
+                            </div>
+                            <p>
+                                
+                            </p>                                
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-menu">
+                            <div class="title-div justify-content-between d-flex">
+                                <h4>Italiano 65</h4>
+                                <h5>Av. 45 Nro 1-85 Medellín</h5>
+                                <h6>Deliciosa  comida italiana</h6>
+                                <p class="price float-right">
+                                  
+                                </p>
+                            </div>
+                            <p>
+                            </p>                                
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="single-menu">
+                          <div class="title-div justify-content-between d-flex">
+                              <h4>Fritos y Más </h4>
+                              <h5>Calle 45 Medellín</h5>
+                              <h6>Comida rapida</h6>
+                              <p class="price float-right">
+                                
+                              </p>
+                          </div>
+                          <p>
+                          </p>                                
+                      </div>
+                  </div>  
+                  <div class="col-lg-4">
+                    <div class="single-menu">
+                        <div class="title-div justify-content-between d-flex">
+                            <h4>Pollo Frito</h4>
+                            <h5>Cra 32 # 56-89</h5>
+                            <h6>Lo Mejor del Pollo Frito</h6>
+                            <p class="price float-right">
+                            
+                            </p>
+                        </div>
+                        <p>
+                        </p>                                
+                    </div>
+                </div>
   </body>
 </html>
